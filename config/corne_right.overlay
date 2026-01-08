@@ -1,0 +1,9 @@
+/ {
+    chosen {
+        zmk,display = &oled;
+    };
+};
+
+&oled {
+    rotation = <180>;
+};
