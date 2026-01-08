@@ -105,7 +105,7 @@
 
     u_l_dquo {
       key-positions = <7 21>;
-      bindings = <&kp SINGLE_QUOTE>;
+      bindings = <&kp DOUBLE_QUOTE>;
     };
 
     /* basic math symbols */
@@ -125,7 +125,7 @@
     };
 
     n_m_unds {
-      key-positions = <18 19 20>;
+      key-positions = <30 31>;
       bindings = <&kp UNDERSCORE>;
     };
 
@@ -220,16 +220,16 @@
 
     u_k_down_bsls {
       key-positions = <7 20 33>;
-      bindings = <&kp SLASH>;
+      bindings = <&kp BACKSLASH>;
     };
 
     i_j_bspc_pipe {
       key-positions = <8 19 40>;
-      bindings = <&kp SLASH>;
+      bindings = <&kp PIPE>;
     };
 
     i_j_l_circ {
-      key-positions = <8 19 40>;
+      key-positions = <8 19 21>;
       bindings = <&kp CARET>;
     };
 
@@ -240,7 +240,7 @@
 
     u_k_spc_gt {
       key-positions = <7 20 39>;
-      bindings = <&kp LESS_THAN>;
+      bindings = <&kp GREATER_THAN>;
     };
 
     y_j_grv {
