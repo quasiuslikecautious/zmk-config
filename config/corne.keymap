@@ -59,270 +59,270 @@
 
     /* number layer */
     d_f_num {
-      timeout-ms: <30>;
+      timeout-ms = <30>;
       key-positions = <15 16>;
-      bindings: <&tog 1>;
+      bindings = <&tog 1>;
     };
 
     w_d_num {
-      timeout-ms: <30>;
+      timeout-ms = <30>;
       key-positions = <2 15>;
-      bindings: <&tog 1>;
+      bindings = <&tog 1>;
     };
 
     /* function layer */
     q_w_fun {
-      timeout-ms: <30>;
+      timeout-ms = <30>;
       key-positions = <1 2>;
-      bindings: <&tog 2>;
+      bindings = <&tog 2>;
     };
 
     /* common symbols */
     l_apo_dot {
       key-positions = <21 22>;
-      bindings: <&kp DOT>;
+      bindings = <&kp DOT>;
     };
 
     k_l_comm {
       key-positions = <20 21>;
-      bindings: <&kp COMMA>;
+      bindings = <&kp COMMA>;
     };
 
     j_l_apo_coln {
       key-positions = <19 21 22>;
-      bindings: <&kp COLON>;
+      bindings = <&kp COLON>;
     };
 
     j_k_l_scln {
       key-positions = <19 20 21>;
-      bindings: <&kp SEMICOLON>;
+      bindings = <&kp SEMICOLON>;
     };
 
     i_l_quot {
       key-positions = <8 21>;
-      bindings: <&kp SINGLE_QUOTE>;
+      bindings = <&kp SINGLE_QUOTE>;
     };
 
     u_l_dquo {
       key-positions = <7 21>;
-      bindings: <&kp SINGLE_QUOTE>;
+      bindings = <&kp SINGLE_QUOTE>;
     };
 
     /* basic math symbols */
     y_u_eql {
       key-positions = <6 7>;
-      bindings: <&kp EQUAL>;
+      bindings = <&kp EQUAL>;
     };
 
     h_j_mins {
       key-positions = <18 19>;
-      bindings: <&kp MINUS>;
+      bindings = <&kp MINUS>;
     };
 
     h_j_k_plus {
       key-positions = <18 19 20>;
-      bindings: <&kp PLUS>;
+      bindings = <&kp PLUS>;
     };
 
     n_m_unds {
       key-positions = <18 19 20>;
-      bindings: <&kp UNDERSCORE>;
+      bindings = <&kp UNDERSCORE>;
     };
 
     // number layer
     y_1_eql {
       key-positions = <6 7>;
-      bindings: <&kp EQUAL>;
+      bindings = <&kp EQUAL>;
     };
 
     h_4_mins {
       key-positions = <18 19>;
-      bindings: <&kp MINUS>;
+      bindings = <&kp MINUS>;
     };
 
     h_4_5_plus {
       key-positions = <18 19 20>;
-      bindings: <&kp PLUS>;
+      bindings = <&kp PLUS>;
     };
 
     n_7_unds {
       key-positions = <18 19 20>;
-      bindings: <&kp UNDERSCORE>;
+      bindings = <&kp UNDERSCORE>;
     };
 
     /* parentheses */
     spc_u_lbrc {
       key-positions = <7 39>;
-      bindings: <&kp LEFT_BRACKET>;
+      bindings = <&kp LEFT_BRACKET>;
     };
 
     spc_i_rbrc {
       key-positions = <8 39>;
-      bindings: <&kp RIGHT_BRACKET>;
+      bindings = <&kp RIGHT_BRACKET>;
     };
 
     spc_j_lprn {
       key-positions = <19 39>;
-      bindings: <&kp LEFT_PARENTHESIS>;
+      bindings = <&kp LEFT_PARENTHESIS>;
     };
 
     spc_k_rprn {
       key-positions = <20 39>;
-      bindings: <&kp RIGHT_PARENTHESIS>;
+      bindings = <&kp RIGHT_PARENTHESIS>;
     };
 
     spc_m_lcbr {
       key-positions = <31 39>;
-      bindings: <&kp LEFT_BRACE>;
+      bindings = <&kp LEFT_BRACE>;
     };
 
     spc_left_rcbr {
       key-positions = <32 39>;
-      bindings: <&kp RIGHT_BRACE>;
+      bindings = <&kp RIGHT_BRACE>;
     };
 
     // number layer
     spc_1_lbrc {
       key-positions = <7 39>;
-      bindings: <&kp LEFT_BRACKET>;
+      bindings = <&kp LEFT_BRACKET>;
     };
 
     spc_2_rbrc {
       key-positions = <8 39>;
-      bindings: <&kp RIGHT_BRACKET>;
+      bindings = <&kp RIGHT_BRACKET>;
     };
 
     spc_4_lprn {
       key-positions = <19 39>;
-      bindings: <&kp LEFT_PARENTHESIS>;
+      bindings = <&kp LEFT_PARENTHESIS>;
     };
 
     spc_5_rprn {
       key-positions = <20 39>;
-      bindings: <&kp RIGHT_PARENTHESIS>;
+      bindings = <&kp RIGHT_PARENTHESIS>;
     };
 
     spc_7_lcbr {
       key-positions = <31 39>;
-      bindings: <&kp LEFT_BRACE>;
+      bindings = <&kp LEFT_BRACE>;
     };
 
     spc_8_rcbr {
       key-positions = <32 39>;
-      bindings: <&kp RIGHT_BRACE>;
+      bindings = <&kp RIGHT_BRACE>;
     };
 
     /* symbols */
     m_k_o_slsh {
       key-positions = <9 20 31>;
-      bindings: <&kp SLASH>;
+      bindings = <&kp SLASH>;
     };
 
     u_k_down_bsls {
       key-positions = <7 20 33>;
-      bindings: <&kp SLASH>;
+      bindings = <&kp SLASH>;
     };
 
     i_j_bspc_pipe {
       key-positions = <8 19 40>;
-      bindings: <&kp SLASH>;
+      bindings = <&kp SLASH>;
     };
 
     i_j_l_circ {
       key-positions = <8 19 40>;
-      bindings: <&kp CARET>;
+      bindings = <&kp CARET>;
     };
 
     i_j_ret_lt {
       key-positions = <8 19 41>;
-      bindings: <&kp LESS_THAN>;
+      bindings = <&kp LESS_THAN>;
     };
 
     u_k_spc_gt {
       key-positions = <7 20 39>;
-      bindings: <&kp LESS_THAN>;
+      bindings = <&kp LESS_THAN>;
     };
 
     y_j_grv {
       key-positions = <6 19>;
-      bindings: <&kp GRAVE>;
+      bindings = <&kp GRAVE>;
     };
 
     j_p_tild {
       key-positions = <10 19>;
-      bindings: <&kp TILDE>;
+      bindings = <&kp TILDE>;
     };
 
     y_u_i_hash {
       key-positions = <6 7 8>;
-      bindings: <&kp HASH>;
+      bindings = <&kp HASH>;
     };
 
     u_down_perc {
       key-positions = <7 33>;
-      bindings: <&kp PERCENT>;
+      bindings = <&kp PERCENT>;
     };
 
     u_i_l_exml {
       key-positions = <7 8 21>;
-      bindings: <&kp EXCLAMATION>;
+      bindings = <&kp EXCLAMATION>;
     };
 
     j_k_o_ques {
       key-positions = <9 19 20>;
-      bindings: <&kp QUESTION>;
+      bindings = <&kp QUESTION>;
     };
 
     m_left_o_dlr {
       key-positions = <9 31 32>;
-      bindings: <&kp DOLLAR>;
+      bindings = <&kp DOLLAR>;
     };
 
     u_k_l_at {
       key-positions = <7 20 21>;
-      bindings: <&kp AT_SIGN>;
+      bindings = <&kp AT_SIGN>;
     };
 
     h_k_ampr {
       key-positions = <18 20>;
-      bindings: <&kp AMPERSAND>;
+      bindings = <&kp AMPERSAND>;
     };
 
     n_m_left_astr {
       key-positions = <30 31 32>;
-      bindings: <&kp ASTERISK>;
+      bindings = <&kp ASTERISK>;
     };
 
     /* navigation keys */
     u_i_o_home {
       key-positions = <7 8 9>;
-      bindings: <&kp HOME>;
+      bindings = <&kp HOME>;
     };
 
     i_o_p_end {
       key-positions = <8 9 10>;
-      bindings: <&kp HOME>;
+      bindings = <&kp HOME>;
     };
 
     n_down_pgdn {
       key-positions = <30 33>;
-      bindings: <&kp PAGE_DOWN>;
+      bindings = <&kp PAGE_DOWN>;
     };
 
     n_down_pgup {
       key-positions = <30 34>;
-      bindings: <&kp PAGE_UP>;
+      bindings = <&kp PAGE_UP>;
     };
 
     /* misc */
     q_s_c_f_t_reset {
       key-positions = <1 5 14 16 27>;
-      bindings: <&sys_reset>;
+      bindings = <&sys_reset>;
     };
 
     y_j_left_l_p_reset {
       key-positions = <6 10 19 21 32>;
-      bindings: <&sys_reset>;
+      bindings = <&sys_reset>;
     };
   };
 };
