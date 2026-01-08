@@ -105,7 +105,7 @@
 
     u_l_dquo {
       key-positions = <7 21>;
-      bindings = <&kp DOUBLE_QUOTE>;
+      bindings = <&kp DOUBLE_QUOTES>;
     };
 
     /* basic math symbols */
