@@ -12,17 +12,18 @@
         keymap {
                 compatible = "zmk,keymap";
 
+
                 default_layer {
 // -----------------------------------------------------------------------------------------
-// |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I   |   O  |  P  | BSPC |
-// |  ESC |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K   |  L   |  VOL UP  |  VOL DOWN   |
-// | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   | LEFT | DOWN |  UP  | RIGHT  |
-//                    | ALT | CTRL | GUI |   | SPC | BSPC  | RET  |
+// |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I   |   O  |  P  |  BSPC |
+// |  ESC |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K   |  L   |  ;  |  RET  |
+// | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   | LEFT | DOWN |  UP | RIGHT |
+//                   | GUI | ALT | CTRL |   | SPC | BSPC | DEL |
                         bindings = <
    &kp TAB   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O    &kp P          &kp BSPC
-   &kp ESC   &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L    &kp C_VOL_DN &kp C_VOL_UP
+   &kp ESC   &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L    &kp SEMICOLON  &kp RET
    &kp LSHFT &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp LEFT  &kp DOWN &kp UP         &kp RIGHT
-                  &kp LALT &kp LCTRL &kp LGUI   &kp SPC &kp BSPC &kp RET
+               &kp LGUI &kp LALT &kp LCTRL   &kp SPC &kp BSPC &kp DEL
                         >;
                 };
                 lower_layer {
@@ -129,27 +130,6 @@
       bindings = <&kp UNDERSCORE>;
     };
 
-    // number layer
-    y_1_eql {
-      key-positions = <6 7>;
-      bindings = <&kp EQUAL>;
-    };
-
-    h_4_mins {
-      key-positions = <18 19>;
-      bindings = <&kp MINUS>;
-    };
-
-    h_4_5_plus {
-      key-positions = <18 19 20>;
-      bindings = <&kp PLUS>;
-    };
-
-    n_7_unds {
-      key-positions = <18 19 20>;
-      bindings = <&kp UNDERSCORE>;
-    };
-
     /* parentheses */
     spc_u_lbrc {
       key-positions = <7 39>;
@@ -177,37 +157,6 @@
     };
 
     spc_left_rcbr {
-      key-positions = <32 39>;
-      bindings = <&kp RIGHT_BRACE>;
-    };
-
-    // number layer
-    spc_1_lbrc {
-      key-positions = <7 39>;
-      bindings = <&kp LEFT_BRACKET>;
-    };
-
-    spc_2_rbrc {
-      key-positions = <8 39>;
-      bindings = <&kp RIGHT_BRACKET>;
-    };
-
-    spc_4_lprn {
-      key-positions = <19 39>;
-      bindings = <&kp LEFT_PARENTHESIS>;
-    };
-
-    spc_5_rprn {
-      key-positions = <20 39>;
-      bindings = <&kp RIGHT_PARENTHESIS>;
-    };
-
-    spc_7_lcbr {
-      key-positions = <31 39>;
-      bindings = <&kp LEFT_BRACE>;
-    };
-
-    spc_8_rcbr {
       key-positions = <32 39>;
       bindings = <&kp RIGHT_BRACE>;
     };
@@ -309,7 +258,7 @@
       bindings = <&kp PAGE_DOWN>;
     };
 
-    n_down_pgup {
+    n_up_pgup {
       key-positions = <30 34>;
       bindings = <&kp PAGE_UP>;
     };
