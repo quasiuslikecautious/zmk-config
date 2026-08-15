@@ -273,5 +273,20 @@
       key-positions = <6 10 19 21 32>;
       bindings = <&sys_reset>;
     };
+
+    bcsp_bcsp_next {
+      key-positions = <11 40>;
+      bindings = <&kp C_NEXT>;
+    };
+
+    bcsp_ret_play_pause {
+      key-positions = <23 40>;
+      bindings = <&kp C_PLAY_PAUSE>;
+    };
+
+    bcsp_right_previous {
+      key-positions = <35 40>;
+      bindings = <&kp C_PREVIOUS>;
+    };
   };
 };
