@@ -62,20 +62,20 @@
     d_f_num {
       timeout-ms = <30>;
       key-positions = <15 16>;
-      bindings = <&tog 1>;
+      bindings = <&mo 1>;
     };
 
     w_d_num {
       timeout-ms = <30>;
       key-positions = <2 15>;
-      bindings = <&tog 1>;
+      bindings = <&mo 1>;
     };
 
     /* function layer */
     q_w_fun {
       timeout-ms = <30>;
       key-positions = <1 2>;
-      bindings = <&tog 2>;
+      bindings = <&mo 2>;
     };
 
     /* common symbols */
